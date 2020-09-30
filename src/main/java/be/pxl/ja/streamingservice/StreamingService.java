@@ -19,30 +19,30 @@ public class StreamingService {
 	public StreamingService() {
 		Movie the_incredibles = new Movie("The Incredibles", Rating.LITTLE_KIDS);
 		the_incredibles.setReleaseDate(LocalDate.of(2004, 10, 27));
-		the_incredibles.setImageUrl("the_incredibles.jpeg");
+		the_incredibles.setImageURL("the_incredibles.jpeg");
 		contentList.add(the_incredibles);
 
 		Documentary planet_earth = new Documentary("Planet Earth", Rating.LITTLE_KIDS);
 		planet_earth.setReleaseDate(LocalDate.of(2006, 3, 5));
-		planet_earth.setImageUrl("planet_earth.jpeg");
+		planet_earth.setImageURL("planet_earth.jpeg");
 		contentList.add(planet_earth);
 
 		Movie jack_ryan = new Movie("Jack Ryan: Shadow Recruit", Rating.TEENS);
 		jack_ryan.setReleaseDate(LocalDate.of(2004, 10, 27));
-		jack_ryan.setImageUrl("jack_ryan.jpeg");
+		jack_ryan.setImageURL("jack_ryan.jpeg");
 		contentList.add(jack_ryan);
 
 		Movie mi = new Movie("Mission Impossible: Fall Out", Rating.TEENS);
-		mi.setImageUrl("mi.jpeg");
+		mi.setImageURL("mi.jpeg");
 		contentList.add(mi);
 
 		Movie iron_fist = new Movie("Iron Fist", Rating.MATURE);
 		iron_fist.setReleaseDate(LocalDate.of(2004, 10, 27));
-		iron_fist.setImageUrl("iron_fist.jpeg");
+		iron_fist.setImageURL("iron_fist.jpeg");
 		contentList.add(iron_fist);
 
 		TVShow eigen_kweek = new TVShow("Eigen kweek", Rating.TEENS, 3);
-		eigen_kweek.setImageUrl("eigen_kweek.jpeg");
+		eigen_kweek.setImageURL("eigen_kweek.jpeg");
 		contentList.add(eigen_kweek);
 
 	}

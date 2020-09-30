@@ -18,7 +18,7 @@ public abstract class Content {
         return maturityRating;
     }
 
-    public String getImageURL() {
+    public String getImageUrl() {
         return imageURL;
     }
 
